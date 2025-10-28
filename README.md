@@ -17,7 +17,7 @@ I learned about SR latches vs D latches, and how to chain them together, along w
 ## Lab Questions
 
 ###  Why can we not just use structural Verilog to implement latches?
-We can, it's just really bad practice, because 
+We can, it's just really bad practice, because there will be timing issues and race conditions.
 ### What is the meaning of always @(*) in a sensitivity block?
 from what I understand, whenever anything is changed hence the * which i'm assuming is a catchall like in regex, the block re-evaluates the signals whenever they change. 
 ### What importance is memory to digital circuits?
